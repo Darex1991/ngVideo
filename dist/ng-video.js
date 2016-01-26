@@ -146,7 +146,7 @@
             throw 'ngVideo: ' + message + '.';
         };
 
-	service.resetSource = function clearSource(){
+	    service.resetSource = function clearSource(){
             ngVideoPlaylist.length = 0;
         };
 
