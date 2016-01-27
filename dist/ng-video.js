@@ -1658,7 +1658,7 @@
                     element.bind('click', function() {
 
                         if (!scope.loading) {
-                            scope.toggleState();
+                            scope.$parent.toggleState();
                         }
 
                     });
